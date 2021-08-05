@@ -20,12 +20,14 @@
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
   <!-- <url type="website">http://wiki.ros.org/pimouse_ros</url> -->
+  <url type="website">https://github.com/hashi0203/pimouse_ros</url>
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+  <author email="n.hsmt.sk@gmail.com">Nobuho Hashimoto</author>
 
 
   <!-- The *depend tags are used to specify dependencies -->
