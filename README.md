@@ -52,6 +52,7 @@ $ catkin_make
     publishing and latching message for 3.0 seconds
     $ rostopic pub -1 '/buzzer/' std_msgs/UInt16 0 # stop buzzer
     publishing and latching message for 3.0 seconds
+    $ roscd pimouse_ros # move directory
     $ ./misc/keikyu.bash # start music
     $ ./misc/keikyu_stop.bash # start music, but interrupted
     ```
@@ -72,7 +73,7 @@ $ catkin_make
     Read sensor values.
 
     ```bash
-    $ rostopic echo lightsensors # continue reading sensor values (enter ctrl-C to exit)
+    $ rostopic echo lightsensors # continue reading sensor values (enter ctrl-C to terminate)
     right_forward: 4
     right_side: 1
     left_side: 3
