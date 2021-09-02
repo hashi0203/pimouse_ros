@@ -18,6 +18,7 @@ $ catkin_make
 ## 1. Install
 
 ```bash
+$ cd ~/catkin_ws/src
 $ git clone https://github.com/hashi0203/pimouse_ros.git
 $ cd ~/catkin_ws
 $ catkin_make
