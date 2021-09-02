@@ -34,11 +34,19 @@ $ catkin_make
     $ roscore
     ```
 
+- Terminal 2
+
+    You can execute the following command in Terminal 2 to start all nodes at once (or you can follow instructions of Terminal 2 in each section).
+
+    ```bash
+    $ roslaunch pimouse_ros pimouse.launch
+    ```
+
 ### 2.1. Buzzer
 
 - Terminal 2
 
-    Run buzzer.
+    Start a buzzer node.
 
     ```bash
     $ rosrun pimous_ros buzzer.py
@@ -62,7 +70,7 @@ $ catkin_make
 
 - Terminal 2
 
-    Run light sensors.
+    Start a lightsensors node.
 
     ```bash
     $ rosparam set /lightsensors_freq 1 # set sensor frequency at 1[Hz] (default 10[Hz])
@@ -109,7 +117,7 @@ $ catkin_make
 
 - Terminal 2
 
-    Run motors.
+    Start a motors node.
 
     ```bash
     $ rosrun pimouse_ros motors.py
