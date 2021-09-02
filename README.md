@@ -2,6 +2,13 @@
 
 # pimouse_ros
 
+## Environment
+
+- Raspberry Pi 3 ModelB
+- Ubuntu 18.04
+    - Ubuntu wiki (https://wiki.ubuntu.com/ARM/RaspberryPi)
+    - Download Link (http://cdimage.ubuntu.com/releases/bionic/release/ubuntu-18.04.5-preinstalled-server-armhf+raspi3.img.xz)
+
 ## 0. Prepare
 
 If you haven't create catkin workspace, execute the following commands.
